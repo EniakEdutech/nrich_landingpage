@@ -1,0 +1,286 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./font/futura\ light\ bt.ttf);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
+
+body{
+    margin: 0;
+}
+.w-100{
+    width: 100%;
+}
+.container{
+    width:85%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.ff-row{
+    flex-flow: row;
+}
+.ff-rowwrap{
+    flex-flow: row wrap;
+}
+.ff-col{
+    flex-flow: column;
+}
+.text-center{
+    text-align: center;
+}
+.justify-content_sb{
+    justify-content: space-between;
+}
+.justify-content_center{
+    justify-content: center;
+}
+.align_item_center{
+    align-items: center;
+}
+.align_item_baseline{
+    align-items: baseline;
+}
+h2{
+    color: #772D44;
+    font-size: 36px;
+}
+button{
+    cursor: pointer;
+}
+.nav{
+    margin:15px auto;
+}
+.btn_primary{
+    background-color: #772D44;
+    color: white;
+    border-radius: 8px;
+    padding:10px 18px 10px 18px;
+    border: none;
+}
+.btn_secondary{
+    background-color: white;
+    color: #772D44;
+    border-radius: 8px;
+    padding:16px 28px 16px 28px;
+    border: none;
+}
+
+.sec1{
+    background-image: url('./images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+    color:white
+}
+.sec1 h1{
+    font-size:72px ;
+    color: white;
+    font-weight: 600;
+}
+.sec1 p{
+    width:777px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+.sec2{
+    margin:60px auto;
+}
+
+.sec2 p{
+    font-size:20px;
+    color: #667085;
+}
+
+.sec3{
+    height: 450px;
+    background-color: #F5F5F5;
+    margin: 30px auto;
+}
+.video_container{
+    width: 338px;
+    background-color: #000;
+    border:18px solid #772D44 ;
+    border-radius:10px
+}
+.video_container video{
+    width: 100%;
+}
+
+.sec4 p{
+ 
+    font-size:20px;
+    color: #667085;
+
+}
+.w-30{
+    width: 30%;
+}
+.box_icon{
+   width:70px;
+}   
+.box_icon img{
+    width: 80%;
+}
+.box_text h3{
+    font-size:20px;
+}
+.box_text p{
+    font-size:16px;
+    width:300px
+}
+
+.sec5{
+    color: white;
+    background-color: #F5F5F5;
+    padding:60px 0;
+}
+.testimonial{
+    width: 341px;
+    height: 321px;
+    background-color:#772D44;
+    border-radius:10px;
+
+}
+.sec5 p{
+    line-height: 25px;
+    padding: 10px 35px;
+}
+
+.sec6{
+    margin: 90px auto;
+}
+.grid_item_icon{
+    width: 70px;
+  
+}
+.grid_item_icon img{
+    width:100%;
+}
+.grid_item h3{
+    font-size:20px;
+    color:#772D44;
+}
+.grid_item p{
+    font-size:20px;
+    color:#667085;
+    font-size:16px ;
+    
+}
+.w-25 {
+    width: 25%;
+}
+.w-40{
+    width: 40%;
+}
+.card{
+    width: 341px;
+    background-color: #F5F5F5;
+    border-radius:10px;
+    padding:25px;
+}
+.grid_item_card_icon{
+    width: 55px;
+
+}
+.grid_item_card_icon img{
+    width:100%;
+}
+
+.sec7{
+    background-color: #F5F5F5;
+    padding:50px 0;
+}
+.sec7 p{
+    font-size: 20px;
+    color: #667085;
+}
+.w-50{
+    width: 50%;
+}
+.sec8{
+    margin:70px 0;
+}
+.sec8 p{
+    font-size: 20px;
+    color: #667085;
+}
+iframe{
+    width:100%;
+    height:450px;
+}
+.location{
+    width:80%;
+    margin: 40px auto;
+}
+.location h3{
+    color: #772D44;
+    margin:10px 0;
+}
+.location p, a{
+    font-size: 16px;
+    color: #667085;
+    text-decoration:none;
+    margin:10px 0;
+}
+@media (max-width:1024px){
+
+}
+@media (max-width:500px){
+    .sec1 h1 {
+        font-size: 32px;}
+
+        .sec1 p {
+            width: 100%;
+           
+            font-size: 18px;
+        }
+        .sec3{
+            height:auto;
+        }
+        .video_container{
+            margin-bottom:30px;
+        }
+        .w-30 , .w-50{
+            width:100%;
+            text-align:center;
+        }
+        .w-50 img{
+            width:100%;
+            margin-top: 50px;
+        }
+        .testimonial {
+            margin-bottom: 40px;
+        }
+        .card {
+            margin-bottom: 40px;
+        } 
+        .location{
+            width:100%;
+        }   
+        .center{
+            margin:40px auto;
+        }   
+        .grid_item{
+            text-align:center;
+        } 
+        .grid_item .grid_item_card_icon ,.grid_item_icon  {
+            margin:0 auto;
+        }
+    }
+    @media (max-width:350px){
+        .testimonial {
+            width: 341px;
+            height: 360px;
+        }
+    }
